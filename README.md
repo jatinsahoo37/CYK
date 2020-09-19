@@ -1,5 +1,5 @@
 # CYK
-INPUT SPECIFICATIONS
+# INPUT SPECIFICATIONS
 Our program takes a text file containing the desired Grammar in CNF.
 The text file format should be as follows:
 From Line 1 to Line N the file must contain Production rules.
@@ -18,6 +18,6 @@ CYK Algorithm operates only on Context Free Grammars given in Chomsky Normal For
 The CKY algorithm as we present it here can only handle rules that are at most binary.
 This restriction is not a problem theoretically, but requires pre-processing (binarization) and postprocessing (debinarization).
 
-GOAL/OBJECTIVE/DESIRED OUTPUT
+# GOAL/OBJECTIVE/DESIRED OUTPUT
 As we can see the program accepts a string whenever it belongs to the Grammar and rejects it otherwise.
 Our program is quite efficient but still it has some flaws as it can’t accept any grammar and only accepts a grammar when its in CNF. 
